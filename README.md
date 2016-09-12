@@ -2,9 +2,9 @@
 Open source, one word reader for fast reading.
 
 ### Demo
-'''
+```
 https://herbaciarz.github.io/one-word-reader/
-'''
+```
 
 ### How to use?
 * Put your text in textarea.
