@@ -5,7 +5,7 @@ var wordCount = 0;
 var currentWordText = '';
 var currentWordNumber = 0;
 
-var start = false;
+var isWorking = false;
 var speed = 300;
 
 var refreshIntervalId;
@@ -35,16 +35,16 @@ setInterval(function() {
 
 // play button
 $('.button-play').click(function(){
-	if ( start ){
-		start = false;
+	if ( isWorking ){
+		isWorking = false;
 		$('.button-play').html('Play');
 		 clearInterval(refreshIntervalId);
 
 	} else {
-		start = true;
+		isWorking = true;
 		$('.button-play').html('Stop');
 		refreshIntervalId = setInterval(function(){
-			if ( start ){
+			if ( isWorking ){
 				currentWordNumber++;
 			}
 		}, speed);
@@ -55,7 +55,7 @@ $('.button-play').click(function(){
 // set previous word
 $('.button-previous').click(function(){
 	if ( currentWordNumber > 0){
-		start = false;
+		isWorking = false;
 		$('.button-play').html('Play');
 		currentWordNumber--;
 	}
@@ -65,7 +65,7 @@ $('.button-previous').click(function(){
 // set next word
 $('.button-next').click(function(){
 	if ( currentWordNumber < wordCount){
-		start = false;
+		isWorking = false;
 		$('.button-play').html('Play');
 		currentWordNumber++;
 	}
