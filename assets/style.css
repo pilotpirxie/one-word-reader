@@ -1,0 +1,51 @@
+<br />
+<b>Notice</b>:  ob_clean(): failed to delete buffer. No buffer to delete in <b>/home/herbacia/domains/herbaciarz.com/public_html/w/components/filemanager/download.php</b> on line <b>76</b><br />
+body{
+	background-color: #222;
+	font-family: "Times New Roman", Georgia, Serif;
+	color: #eee;
+}
+#word{
+	text-align: center;
+	font-size: 32px;
+	position: absolute;
+	display: inline;
+	top: 30%;
+	width: 99%;
+	
+}
+#text{
+		font-family: "Times New Roman", Georgia, Serif;
+
+	font-size: 16px;
+	overflow-x: hidden;
+	background-color: #333;
+	color: #eee;
+	width: 40%;
+    outline: none !important;
+    border:0px solid red;
+    padding: 30px 30px 30px 30px;
+}
+#tutorial{
+	text-align: center;
+}
+
+.button:hover{
+	color: #eee;
+	cursor: pointer;
+}
+.button{
+	color: #444;
+}
+#gui-onload{
+	visibility: hidden;
+}
+#gui-onload .button{
+	display:inline-block
+}
+#gui-onload .button{
+	display:inline-block
+}
+h5{
+	color: #444;
+}
