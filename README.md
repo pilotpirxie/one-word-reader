@@ -1,7 +1,12 @@
 # one-word-reader
 Open source, one word reader for fast reading.
 
-## How to use?
+### Demo
+'''
+https://herbaciarz.github.io/one-word-reader/
+'''
+
+### How to use?
 * Put your text in textarea.
 * Click button.
 * Adjust speed.
