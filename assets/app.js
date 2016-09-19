@@ -27,7 +27,7 @@ $('.button-ready').click(function(){
 // update settings
 setInterval(function() {
 	if ( wordCount > 0){
-		$('#word-inner').html(words[currentWordNumber]);
+		$('#word-inner').html(60 * (1000 / words[currentWordNumber]) + "WPM");
 		$('#wordCount').html(currentWordNumber + "/" + wordCount + "<br>" + speed);
 	}
 }, 10);
