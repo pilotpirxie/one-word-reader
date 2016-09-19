@@ -27,8 +27,8 @@ $('.button-ready').click(function(){
 // update settings
 setInterval(function() {
 	if ( wordCount > 0){
-		$('#word-inner').html(60 * (1000 / words[currentWordNumber]) + "WPM");
-		$('#wordCount').html(currentWordNumber + "/" + wordCount + "<br>" + speed);
+		$('#word-inner').html(words[currentWordNumber]);
+		$('#wordCount').html(currentWordNumber + "/" + wordCount + "<br>" + 60 * (1000 / speed) + "WPM");
 	}
 }, 10);
 
