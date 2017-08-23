@@ -3,7 +3,7 @@ Open source, one word reader for fast reading.
 
 ### Demo
 ```
-https://herbaciarz.github.io/one-word-reader/
+https://pilotpirxie.github.io/one-word-reader/
 ```
 
 ### How to use?
