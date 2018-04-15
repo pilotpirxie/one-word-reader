@@ -1,20 +1,18 @@
-body{
+body {
 	background-color: #222;
 	font-family: "Times New Roman", Georgia, Serif;
 	color: #eee;
 }
-#word{
+.App {
 	text-align: center;
 	font-size: 32px;
 	position: absolute;
 	display: inline;
 	top: 30%;
 	width: 99%;
-	
-}
-#text{
-		font-family: "Times New Roman", Georgia, Serif;
 
+}
+textarea {
 	font-size: 16px;
 	overflow-x: hidden;
 	background-color: #333;
@@ -24,26 +22,19 @@ body{
     border:0px solid red;
     padding: 30px 30px 30px 30px;
 }
-#tutorial{
-	text-align: center;
-}
-
-.button:hover{
+.button:hover {
 	color: #eee;
 	cursor: pointer;
 }
-.button{
+.button {
 	color: #444;
 }
-#gui-onload{
+.gui-onload {
 	visibility: hidden;
 }
-#gui-onload .button{
+.gui-onload .button {
 	display:inline-block
 }
-#gui-onload .button{
-	display:inline-block
-}
-h5{
+h5 {
 	color: #444;
 }
