@@ -26,14 +26,13 @@ textarea {
 	color: #eee;
 	cursor: pointer;
 }
-.button {
+.InputButtons .button {
+	display:inline-block;
 	color: #444;
-}
-.gui-onload {
-	visibility: hidden;
-}
-.gui-onload .button {
-	display:inline-block
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 h5 {
 	color: #444;
